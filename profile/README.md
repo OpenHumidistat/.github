@@ -2,10 +2,12 @@
 
 Here you can find the sources for the firmware, software utilities, and hardware of OpenHumidistat, a free and open-source humidistat for laboratory-scale humidity control that is affordable and easy to build.
 
-Using OpenHumidistat, you can realise humidity control for your experimental setups for about €500 (and some of your time to build it). OpenHumidistat is designed to provide standalone control of the humidity in a small measurement chamber (~100 mL). It features:
+Using OpenHumidistat, you can realise humidity control for your experimental setups for about €500 (and some of your time to build it). OpenHumidistat is designed to provide standalone control of the humidity in a small measurement chamber (~ 10 - 100 mL). It features:
 
 - Fast and precise dynamic response
+  - Settling time of ~ 10 s
 - Broad attainable humidity range of approximately 10-90% (depending on humidifier efficacy and feed gas conditions)
+- Flowrate up to 2 L/min
 - High accuracy and good disturbance rejection through closed-loop control
 - Easy and intuitive operation
 - Excellent versatility and portability: can be applied to a wide range of experimental setups
