@@ -6,8 +6,7 @@ Using OpenHumidistat, you can realise humidity control for your experimental set
 
 - Fast and precise dynamic response
   - Settling time of ~ 10 s
-- Broad attainable humidity range of approximately 10-90% (depending on humidifier efficacy and feed gas conditions)
-- Flowrate up to 2 L/min
+- Broad attainable humidity range of approximately 10-90% (depending on humidifier efficacy and feed gas conditions)- Flowrate up to 2 L/min
 - High accuracy and good disturbance rejection through closed-loop control
 - Easy and intuitive operation
 - Excellent versatility and portability: can be applied to a wide range of experimental setups
@@ -29,11 +28,19 @@ The second version features upgraded components including a much more powerful m
 
 If you are interested in building OpenHumidistat, it is strongly recommended to consider the second version. Besides upgrades to the hardware, [the article describing it](https://arxiv.org/pdf/2112.08500) includes comprehensive step-by-step build instructions. PCB designs for the custom circuits and 3D models for the enclosure are also provided for your convenience.
 
+## Addendum
+
+It was found that the heat from the solenoid valves could affect the temperature in the measurement chamber. To alleviate this issue, a (60 mm) fan can be installed in the OpenHumidistat enclosure. Updated CAD files, as well as an updated version of the solenoid driver PCB with a fan header, are available to this end.
+
 ## Publications
+First version, using Arduino Uno, single-loop PID controller, DHT22/AM2302 humidity sensor, and 16x2 character display:
+
 Veldscholte, L.B., Horst, R.J. & de Beer, S.  
 Design, construction, and testing of an accurate low-cost humidistat for laboratory-scale applications.  
 Eur. Phys. J. E 44, 48 (2021).  
 https://doi.org/10.1140/epje/s10189-021-00062-5
+
+Second, improved version, using Teensy LC, cascade PID controller, SHT85 humidity sensor, and 128x64 graphical display:
 
 Veldscholte, L. B., de Beer, S.  
 OpenHumidistat: Humidity-controlled experiments for everyone.  
