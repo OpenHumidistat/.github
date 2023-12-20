@@ -35,7 +35,7 @@ If you are interested in building OpenHumidistat, it is strongly recommended to 
 It was found that the heat from the solenoid valves could affect the temperature in the measurement chamber. To alleviate this issue, a (60 mm) fan can be installed in the OpenHumidistat enclosure. Updated CAD files, as well as an updated version of the solenoid driver PCB with a fan header, are available to this end.
 
 ### Teensy 4.0 compatiblity
-The Teensy LC microcontroller board is getting less and less available due to supply issues with its microcontroller chip. Instead, the [Teensy 4.0](https://www.pjrc.com/store/teensy40.html) can be used as a drop-in replacement.
+The Teensy LC microcontroller board is getting less and less available due to supply issues with its microcontroller chip. Instead, the [Teensy 4.0](https://www.pjrc.com/store/teensy40.html) can be used as a drop-in replacement. It is pin-compatible and an upgrade in terms of specifications compared to the Teensy LC. The firmware has been prepared for compatibility with the Teensy 4.0.
 
 ## Publications
 First version, using Arduino Uno, single-loop PID controller, DHT22/AM2302 humidity sensor, and 16x2 character display:
